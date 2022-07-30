@@ -17,6 +17,8 @@ def main(argv):
 
     parser.add_argument("-x0", action="store", dest="x0", required=True)
     parser.add_argument("-x1", action="store", dest="x1", required=True)
+    parser.add_argument("-y0", action="store", dest="y0", required=True)
+    parser.add_argument("-y1", action="store", dest="y1", required=True)
 
     parser.add_argument(
         "-rad", action="store", dest="radius", required=True, help="Cylinder radius"
